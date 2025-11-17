@@ -1,0 +1,21 @@
+{
+  "token": "YOUR_BOT_TOKEN_HERE",
+  "verification": {
+    "channelId": "YOUR_VERIFICATION_CHANNEL_ID",
+    "roleId": "YOUR_VERIFIED_ROLE_ID",
+    "embedTitle": "Weryfikacja",
+    "embedDescription": "Kliknij przycisk poniżej, aby uzyskać dostęp do serwera!",
+    "embedColor": "#00ff00",
+    "buttonLabel": "Zweryfikuj się"
+  },
+  "tickets": {
+    "categoryId": "YOUR_TICKETS_CATEGORY_ID",
+    "createChannelId": "YOUR_TICKET_CREATE_CHANNEL_ID",
+    "staffRoleIds": ["YOUR_STAFF_ROLE_ID_1", "YOUR_STAFF_ROLE_ID_2"],
+    "embedTitle": "System Ticketów",
+    "embedDescription": "Kliknij przycisk poniżej, aby utworzyć ticket!",
+    "embedColor": "#0099ff",
+    "buttonLabel": "Utwórz Ticket",
+    "acceptButtonLabel": "Przyjmij Ticket"
+  }
+}
