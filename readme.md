@@ -101,16 +101,26 @@ discord-bot/
 └── readme.md            # Ten plik
 ```
 
+## Bezpieczeństwo
+
+⚠️ **WAŻNE**: Plik `config.json` zawiera wrażliwe dane (token bota). 
+- **NIE** udostępniaj tego pliku publicznie
+- **NIE** commituj go do publicznych repozytoriów
+- Użyj `config.example.json` jako szablonu dla innych użytkowników
+- Rozważ dodanie `config.json` do `.gitignore` jeśli pracujesz w zespole
+
 ## Rozwiązywanie Problemów
 
 ### Bot się nie loguje
 - Sprawdź czy token w `config.json` jest poprawny
-- Upewnij się, że bot ma włączone odpowiednie intenty w Discord Developer Portal
+- Upewnij się, że bot ma włączone odpowiednie intenty w Discord Developer Portal (GUILDS, GUILD_MEMBERS, GUILD_MESSAGES)
 
 ### Przyciski nie działają
 - Sprawdź czy bot ma uprawnienia do zarządzania rolami/kanałami
 - Upewnij się, że ID w `config.json` są poprawne
+- Sprawdź czy rola bota jest wyżej niż rola, którą próbuje nadać
 
 ### Tickety nie są tworzone
 - Sprawdź czy kategoria istnieje
 - Upewnij się, że bot ma uprawnienia do tworzenia kanałów w kategorii
+- Sprawdź czy bot może zarządzać uprawnieniami w kategorii
